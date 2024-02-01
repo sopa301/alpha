@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="9.3">
-<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\systemtest\java\reposense\ConfigSystemTest.java">
-</file>
-<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\systemtest\java\reposense\LocalRepoSystemTest.java">
-</file>
-<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\systemtest\java\reposense\util\SystemTestUtil.java">
-</file>
-</checkstyle>

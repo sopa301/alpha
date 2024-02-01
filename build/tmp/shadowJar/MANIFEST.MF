@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Version: 14b6d34
-Main-Class: reposense.RepoSense
-

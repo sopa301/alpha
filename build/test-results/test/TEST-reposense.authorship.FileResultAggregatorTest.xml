@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="reposense.authorship.FileResultAggregatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:42" hostname="TOP-WASHING-POW" time="10.672">
-  <properties/>
-  <testcase name="aggregateFileResult_clearFileLines_success()" classname="reposense.authorship.FileResultAggregatorTest" time="10.672"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

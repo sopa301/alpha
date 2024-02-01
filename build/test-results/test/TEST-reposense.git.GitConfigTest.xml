@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="reposense.git.GitConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:43" hostname="TOP-WASHING-POW" time="3.803">
-  <properties/>
-  <testcase name="setGlobalLfsConfig_skipSmudge_success()" classname="reposense.git.GitConfigTest" time="3.803"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
