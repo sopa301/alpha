@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.model.RepoConfigurationTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:46" hostname="TOP-WASHING-POW" time="16.807">
+  <properties/>
+  <testcase name="repoConfig_withoutIgnoreStandaloneConfigInCli_useCsv()" classname="reposense.model.RepoConfigurationTest" time="11.778"/>
+  <testcase name="repoConfig_minimalStandaloneConfig_fieldsAssignedDefaultValues()" classname="reposense.model.RepoConfigurationTest" time="1.273"/>
+  <testcase name="repoConfig_withoutFormats_useCliFormats()" classname="reposense.model.RepoConfigurationTest" time="0.05"/>
+  <testcase name="repoConfig_shallowCloningInCli_overrideCsv()" classname="reposense.model.RepoConfigurationTest" time="0.272"/>
+  <testcase name="repoConfig_withoutFindPreviousAuthorsInCli_useCsv()" classname="reposense.model.RepoConfigurationTest" time="0.28"/>
+  <testcase name="repoConfig_findPreviousAuthorsInCli_overrideCsv()" classname="reposense.model.RepoConfigurationTest" time="0.455"/>
+  <testcase name="repoConfig_overrideStandaloneConfig_success()" classname="reposense.model.RepoConfigurationTest" time="0.109"/>
+  <testcase name="repoConfig_wrongKeywordUseStandaloneConfig_success()" classname="reposense.model.RepoConfigurationTest" time="0.119"/>
+  <testcase name="repoConfig_ignoreFileSizeLimit_success()" classname="reposense.model.RepoConfigurationTest" time="0.125"/>
+  <testcase name="repoConfig_findPreviousAuthorsInCli_success()" classname="reposense.model.RepoConfigurationTest" time="0.163"/>
+  <testcase name="repoConfig_ignoreFileSizeLimitInCli_overrideCsv()" classname="reposense.model.RepoConfigurationTest" time="0.27"/>
+  <testcase name="repoConfig_findPreviousAuthors_success()" classname="reposense.model.RepoConfigurationTest" time="0.155"/>
+  <testcase name="repoConfig_withFormats_ignoreCliFormats()" classname="reposense.model.RepoConfigurationTest" time="0.037"/>
+  <testcase name="repoConfig_withCustomGroups_useCustomGroups()" classname="reposense.model.RepoConfigurationTest" time="0.081"/>
+  <testcase name="repoConfig_shallowCloning_success()" classname="reposense.model.RepoConfigurationTest" time="0.137"/>
+  <testcase name="repoConfig_removeIgnoredAuthors_success()" classname="reposense.model.RepoConfigurationTest" time="0.158"/>
+  <testcase name="repoConfig_ignoresStandaloneConfigInCli_success()" classname="reposense.model.RepoConfigurationTest" time="0.179"/>
+  <testcase name="repoConfig_shallowCloningInCli_success()" classname="reposense.model.RepoConfigurationTest" time="0.185"/>
+  <testcase name="repoConfig_emptyLocationDifferentBranch_equal()" classname="reposense.model.RepoConfigurationTest" time="0.001"/>
+  <testcase name="repoConfig_withoutFormatsAndCliFormats_useAllFormats()" classname="reposense.model.RepoConfigurationTest" time="0.034"/>
+  <testcase name="repoConfig_withoutShallowCloningInInCli_useCsv()" classname="reposense.model.RepoConfigurationTest" time="0.269"/>
+  <testcase name="repoConfig_usesStandaloneConfig_success()" classname="reposense.model.RepoConfigurationTest" time="0.083"/>
+  <testcase name="repoConfig_ignoresStandaloneConfig_success()" classname="reposense.model.RepoConfigurationTest" time="0.114"/>
+  <testcase name="repoConfig_sameLocationDifferentBranch_notEqual()" classname="reposense.model.RepoConfigurationTest" time="0.001"/>
+  <testcase name="repoConfig_ignoreStandaloneConfigInCli_overrideCsv()" classname="reposense.model.RepoConfigurationTest" time="0.267"/>
+  <testcase name="repoConfig_userEnvironmentCannotRunFindPreviousAuthors_setFindPreviousAuthorsToFalseInAllRepoConfigs()" classname="reposense.model.RepoConfigurationTest" time="0.201"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias ahmad syafiq found. The alias will belong to the last author - lithiumlkid
+09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias tianwei found. The alias will belong to the last author - lohtianwei
+09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias lithiumlkid@users.noreply.github.com found. The alias will belong to the last author - lithiumlkid
+09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias lithiumlkid@users.noreply.gitlab.com found. The alias will belong to the last author - lithiumlkid
+09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias codeeong@users.noreply.github.com found. The alias will belong to the last author - codeeong
+09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias codeeong@users.noreply.gitlab.com found. The alias will belong to the last author - codeeong
+09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias jordancjq@users.noreply.github.com found. The alias will belong to the last author - jordancjq
+09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias jordancjq@users.noreply.gitlab.com found. The alias will belong to the last author - jordancjq
+09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias lohtianwei@users.noreply.github.com found. The alias will belong to the last author - lohtianwei
+09:20:46 - ?[43;30m[WARNING]?[m Duplicate alias lohtianwei@users.noreply.gitlab.com found. The alias will belong to the last author - lohtianwei
+09:20:46 - ?[43;30m[WARNING]?[m File "largeFile.json" has 1936170B size. The file size limit is set at 500000B. Skipping analysis of this file...
+09:20:58 - Cloning from https://github.com/reposense/testrepo-minimalstandaloneconfig.git...
+09:20:59 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:20:59 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:20:59 - Skipped cloning from https://github.com/reposense/testrepo-Beta.git as it was cloned before.
+09:20:59 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:20:59 - Skipped cloning from https://github.com/reposense/testrepo-Beta.git as it was cloned before.
+09:20:59 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:20:59 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:00 - Skipped cloning from https://github.com/reposense/testrepo-Beta.git as it was cloned before.
+09:21:00 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:00 - Ignoring standalone config file in https://github.com/reposense/testrepo-Beta.git (master).
+09:21:00 - Ignoring standalone config file in https://github.com/reposense/testrepo-Delta.git (master).
+09:21:00 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:00 - ?[43;30m[WARNING]?[m Ignoring unknown value no in yes column.
+09:21:00 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:00 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:00 - ?[43;30m[WARNING]?[m Ignoring unknown value yesss in yes column.
+09:21:00 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:00 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore File Size Limit,  Ignore Commits List
+09:21:00 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:00 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:00 - Parsed header of CSV file, repo-config.csv, and recognized columns: Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore File Size Limit,  Ignore Commits List
+09:21:00 - Skipped cloning from https://github.com/reposense/testrepo-Beta.git as it was cloned before.
+09:21:01 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:01 - Ignoring standalone config file in https://github.com/reposense/testrepo-Beta.git (master).
+09:21:01 - Ignoring standalone config file in https://github.com/reposense/testrepo-Delta.git (master).
+09:21:01 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:01 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:01 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:01 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:01 - Parsed header of CSV file, group-config.csv, and recognized columns: Globs,  Repository's Location,  Group Name
+09:21:01 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:01 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:01 - Ignoring standalone config file in https://github.com/reposense/testrepo-Delta.git (master).
+09:21:01 - ?[43;30m[WARNING]?[m Duplicate alias ahmad syafiq found. The alias will belong to the last author - lithiumlkid
+09:21:01 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:01 - Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+09:21:01 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:01 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:01 - Ignoring standalone config file in https://github.com/reposense/testrepo-Delta.git (master).
+09:21:01 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:02 - Ignoring standalone config file in https://github.com/reposense/testrepo-Delta.git (master).
+09:21:02 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:02 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:02 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:02 - ?[43;30m[WARNING]?[m Duplicate alias ahmad syafiq found. The alias will belong to the last author - lithiumlkid
+09:21:02 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:02 - Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+09:21:02 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:02 - Ignoring standalone config file in https://github.com/reposense/testrepo-Delta.git (master).
+09:21:02 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:02 - Skipped cloning from https://github.com/reposense/testrepo-Beta.git as it was cloned before.
+09:21:02 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:02 - Ignoring standalone config file in https://github.com/reposense/testrepo-Beta.git (master).
+09:21:02 - Ignoring standalone config file in https://github.com/reposense/testrepo-Delta.git (master).
+09:21:02 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:21:02 - Skipped cloning from https://github.com/reposense/testrepo-Beta.git as it was cloned before.
+09:21:03 - Skipped cloning from https://github.com/reposense/testrepo-Delta.git as it was cloned before.
+09:21:03 - Ignoring standalone config file in https://github.com/reposense/testrepo-Beta.git (master).
+09:21:03 - Ignoring standalone config file in https://github.com/reposense/testrepo-Delta.git (master).
+]]></system-err>
+</testsuite>

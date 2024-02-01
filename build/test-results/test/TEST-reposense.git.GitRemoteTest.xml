@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.git.GitRemoteTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:42" hostname="TOP-WASHING-POW" time="5.028">
+  <properties/>
+  <testcase name="getAvailableRemoteLocation_emptyRemotes_returnsEmpty()" classname="reposense.git.GitRemoteTest" time="1.767"/>
+  <testcase name="getAvailableRemoteLocation_remotesContainingOrigin_returnsOrigin()" classname="reposense.git.GitRemoteTest" time="0.608"/>
+  <testcase name="getAvailableRemoteLocation_remotesNotContainingOrigin_returnsAny()" classname="reposense.git.GitRemoteTest" time="1.187"/>
+  <testcase name="getRemotes_singleOriginRemote_success()" classname="reposense.git.GitRemoteTest" time="1.456"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:45 - ?[43;30m[WARNING]?[m Commit not found: nonExistentCommitHash
+]]></system-err>
+</testsuite>

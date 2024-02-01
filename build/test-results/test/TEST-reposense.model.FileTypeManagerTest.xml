@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.model.FileTypeManagerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:46" hostname="TOP-WASHING-POW" time="0.016">
+  <properties/>
+  <testcase name="isInsideFormatsWhiteList_notWhitelistedFormat_success()" classname="reposense.model.FileTypeManagerTest" time="0.003"/>
+  <testcase name="isInsideFormatsWhiteList_whitelistedFormat_success()" classname="reposense.model.FileTypeManagerTest" time="0.001"/>
+  <testcase name="getFileType_noCustomGroups_returnsCorrectFormat()" classname="reposense.model.FileTypeManagerTest" time="0.004"/>
+  <testcase name="getFileType_withCustomGroups_getsCorrectGroupLabel()" classname="reposense.model.FileTypeManagerTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

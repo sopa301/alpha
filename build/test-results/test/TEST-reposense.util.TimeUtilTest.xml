@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.util.TimeUtilTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:34" hostname="TOP-WASHING-POW" time="0.76">
+  <properties/>
+  <testcase name="extractDate_validSingleDigitDateAndString_success()" classname="reposense.util.TimeUtilTest" time="0.581"/>
+  <testcase name="extractDate_validSingleDigitDateAndTime_success()" classname="reposense.util.TimeUtilTest" time="0.032"/>
+  <testcase name="extractDate_validDate_success()" classname="reposense.util.TimeUtilTest" time="0.007"/>
+  <testcase name="extractDate_validSingleDigitDate_success()" classname="reposense.util.TimeUtilTest" time="0.002"/>
+  <testcase name="parseDate_invalidDate_throwsParseException()" classname="reposense.util.TimeUtilTest" time="0.085"/>
+  <testcase name="parseDate_invalidTime_throwsParseException()" classname="reposense.util.TimeUtilTest" time="0.005"/>
+  <testcase name="parseDate_validDateAndTime_success()" classname="reposense.util.TimeUtilTest" time="0.006"/>
+  <testcase name="extractDate_validDateAndTime_success()" classname="reposense.util.TimeUtilTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:35 - Log temp folder has been successfully created
+]]></system-err>
+</testsuite>

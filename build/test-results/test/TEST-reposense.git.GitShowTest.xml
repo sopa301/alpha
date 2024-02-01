@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.git.GitShowTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:42" hostname="TOP-WASHING-POW" time="8.811">
+  <properties/>
+  <testcase name="getExpandedCommitHash_shortCommitHash_success()" classname="reposense.git.GitShowTest" time="1.72"/>
+  <testcase name="getEarliestCommitDate_nonexistentCommit_throwsEmptyCommitException()" classname="reposense.git.GitShowTest" time="3.057"/>
+  <testcase name="getCommitDate_normalCommit_success()" classname="reposense.git.GitShowTest" time="1.005"/>
+  <testcase name="getExpandedCommitHash_nonExistentCommit_throwsEmptyCommitException()" classname="reposense.git.GitShowTest" time="0.766"/>
+  <testcase name="getEarliestCommitDate_singleCommit_success()" classname="reposense.git.GitShowTest" time="0.782"/>
+  <testcase name="getParentCommits_nonExistentCommit_throwsEmptyCommitException()" classname="reposense.git.GitShowTest" time="0.44"/>
+  <testcase name="getEarliestCommitDate_multipleCommits_success()" classname="reposense.git.GitShowTest" time="1.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:49 - Extracting relevant file info from https://github.com/reposense/testrepo-Alpha.git (master)...
+09:20:49 - Analyzing commits info for https://github.com/reposense/testrepo-Alpha.git (master)...
+]]></system-err>
+</testsuite>

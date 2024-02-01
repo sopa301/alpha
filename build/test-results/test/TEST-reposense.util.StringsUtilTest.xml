@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.util.StringsUtilTest" tests="7" skipped="1" failures="0" errors="0" timestamp="2024-01-18T13:20:35" hostname="TOP-WASHING-POW" time="0.053">
+  <properties/>
+  <testcase name="addQuotesForFilePath_specialBashCharacters_success()" classname="reposense.util.StringsUtilTest" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase name="replaceSpecialSymbols_noSpecialSymbols_noChange()" classname="reposense.util.StringsUtilTest" time="0.003"/>
+  <testcase name="removeTrailingBackslash_stringWithNoTrailingBackslash_noChange()" classname="reposense.util.StringsUtilTest" time="0.001"/>
+  <testcase name="removeTrailingBackslash_emptyString_noChange()" classname="reposense.util.StringsUtilTest" time="0.0"/>
+  <testcase name="filterText_standardInput_success()" classname="reposense.util.StringsUtilTest" time="0.007"/>
+  <testcase name="replaceSpecialSymbols_stringWithSpecialSymbolsToPeriod_success()" classname="reposense.util.StringsUtilTest" time="0.003"/>
+  <testcase name="removeTrailingBackslash_stringWithMultipleTrailingBackslash_success()" classname="reposense.util.StringsUtilTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

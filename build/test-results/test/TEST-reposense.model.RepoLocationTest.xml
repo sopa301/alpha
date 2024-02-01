@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.model.RepoLocationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:47" hostname="TOP-WASHING-POW" time="1.744">
+  <properties/>
+  <testcase name="getDomainNameFromMatcher_parseInvalidDomain_throwsInvalidLocationException()" classname="reposense.model.RepoLocationTest" time="0.005"/>
+  <testcase name="repoLocation_parseLocalRepoLocation_success()" classname="reposense.model.RepoLocationTest" time="0.845"/>
+  <testcase name="repoLocation_parseInvalidRemoteRepo_throwsInvalidLocationException()" classname="reposense.model.RepoLocationTest" time="0.002"/>
+  <testcase name="repoLocation_parseWindowsLocalRepoLocation_success()" classname="reposense.model.RepoLocationTest" time="0.541"/>
+  <testcase name="isLocalRepo_remoteRepos_returnsFalse()" classname="reposense.model.RepoLocationTest" time="0.001"/>
+  <testcase name="repoLocation_parseNormalizableRepoLocations_success()" classname="reposense.model.RepoLocationTest" time="0.329"/>
+  <testcase name="repoLocation_parseEmptyString_success()" classname="reposense.model.RepoLocationTest" time="0.003"/>
+  <testcase name="isLocalRepo_validLocalRepos_success()" classname="reposense.model.RepoLocationTest" time="0.001"/>
+  <testcase name="getDomainNameFromMatcher_parseValidDomain_success()" classname="reposense.model.RepoLocationTest" time="0.001"/>
+  <testcase name="repoLocation_parseValidRemoteRepoUrl_success()" classname="reposense.model.RepoLocationTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:47 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: repo
+09:20:47 - Parsed header of CSV file, repoconfig_redundantLines_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Ignore Commits List
+09:20:48 - ?[43;30m[WARNING]?[m Duplicate alias zachary tang found. The alias will belong to the last author - zacharytang
+09:20:48 - Parsed header of CSV file, authorconfig_noSpecialCharacter_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+]]></system-err>
+</testsuite>

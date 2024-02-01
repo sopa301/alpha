@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.model.StandaloneConfigTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:47" hostname="TOP-WASHING-POW" time="2.82">
+  <properties/>
+  <testcase name="standaloneConfig_invalidIgnoreCommit_throwIllegalArgumentException()" classname="reposense.model.StandaloneConfigTest" time="0.46"/>
+  <testcase name="standaloneConfig_fileSizeLimit_success()" classname="reposense.model.StandaloneConfigTest" time="0.408"/>
+  <testcase name="standaloneConfig_invalidIgnoreGlob_throwIllegalArgumentException()" classname="reposense.model.StandaloneConfigTest" time="0.325"/>
+  <testcase name="standaloneConfig_trailingCommasInMaps_throwsJsonSyntaxException()" classname="reposense.model.StandaloneConfigTest" time="0.269"/>
+  <testcase name="standaloneConfig_trailingCommasInList_success()" classname="reposense.model.StandaloneConfigTest" time="0.41"/>
+  <testcase name="standaloneConfig_invalidFormats_throwIllegalArgumentException()" classname="reposense.model.StandaloneConfigTest" time="0.343"/>
+  <testcase name="standaloneConfig_specialCharacterAuthor_success()" classname="reposense.model.StandaloneConfigTest" time="0.399"/>
+  <testcase name="standaloneConfig_validJson_success()" classname="reposense.model.StandaloneConfigTest" time="0.196"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:48 - Ignoring argument 'C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\build\resources\test\output' for --view.
+]]></system-err>
+</testsuite>

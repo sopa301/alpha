@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.parser.RepoConfigParserTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:47" hostname="TOP-WASHING-POW" time="2.975">
+  <properties/>
+  <testcase name="repoConfig_overrideKeyword_success()" classname="reposense.parser.RepoConfigParserTest" time="0.325"/>
+  <testcase name="repoConfig_withUnrecognizedValuesForYesKeywordHeaders_valuesIgnored()" classname="reposense.parser.RepoConfigParserTest" time="0.25"/>
+  <testcase name="repoConfig_redundantLines_success()" classname="reposense.parser.RepoConfigParserTest" time="0.424"/>
+  <testcase name="repoConfig_invalidFileSizeLimit_valueIgnored()" classname="reposense.parser.RepoConfigParserTest" time="0.207"/>
+  <testcase name="repoConfig_differentColumnOrder_success()" classname="reposense.parser.RepoConfigParserTest" time="0.247"/>
+  <testcase name="merge_twoRepoConfigs_success()" classname="reposense.parser.RepoConfigParserTest" time="0.375"/>
+  <testcase name="repoConfig_unknownHeaders_throwsInvalidHeaderException()" classname="reposense.parser.RepoConfigParserTest" time="0.013"/>
+  <testcase name="repoConfig_ignoreFileSizeLimit_ignoreFileSizeColumns()" classname="reposense.parser.RepoConfigParserTest" time="0.13"/>
+  <testcase name="repoConfig_defaultBranch_success()" classname="reposense.parser.RepoConfigParserTest" time="0.389"/>
+  <testcase name="repoConfig_noSpecialCharacter_success()" classname="reposense.parser.RepoConfigParserTest" time="0.187"/>
+  <testcase name="repoConfig_missingOptionalHeader_success()" classname="reposense.parser.RepoConfigParserTest" time="0.071"/>
+  <testcase name="repoConfig_duplicateHeadersCaseInsensitive_throwsInvalidCsvException()" classname="reposense.parser.RepoConfigParserTest" time="0.009"/>
+  <testcase name="merge_emptyLocation_success()" classname="reposense.parser.RepoConfigParserTest" time="0.295"/>
+  <testcase name="repoConfig_mandatoryHeaderMissing_throwsInvalidCsvException()" classname="reposense.parser.RepoConfigParserTest" time="0.004"/>
+  <testcase name="repoConfig_zeroValidRecords_throwsInvalidCsvException()" classname="reposense.parser.RepoConfigParserTest" time="0.011"/>
+  <testcase name="repoConfig_duplicateHeadersCaseSensitive_throwsInvalidCsvException()" classname="reposense.parser.RepoConfigParserTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:47 - Parsed header of CSV file, repoconfig_overrideKeyword_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  File Size Limit,  Ignore Commits List
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: ..\path/to\repo
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: /Users/sikai/RepoSense
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: file://path\to\repo.git
+09:20:48 - Parsed header of CSV file, repoconfig_invalidFileSizeLimit_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  File Size Limit,  Ignore Commits List
+09:20:48 - Cloning completed!
+09:20:49 - Parsed header of CSV file, repoconfig_ignoreFileSizeLimit_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Skip Ignored File Analysis,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  File Size Limit,  Ignore File Size Limit,  Ignore Commits List
+09:20:49 - Parsed header of CSV file, repoconfig_noSpecialCharacter_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Skip Ignored File Analysis,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  File Size Limit,  Ignore Commits List
+09:20:49 - Parsed header of CSV file, repoconfig_missingOptionalHeader_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors
+09:20:49 - Parsed header of CSV file, repoconfig_duplicateHeadersCaseInsensitive_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:20:49 - ?[43;30m[WARNING]?[m Line 2 in CSV file, repoconfig_duplicateHeadersCaseInsensitive_test.csv, is malformed.
+Content: https://github.com/reposense/testrepo-Beta.git,master,something-else,py,java;adoc;md,docs**,yes,abcde12345;67890fdecba,zacharytang,
+09:20:49 - ?[43;30m[WARNING]?[m Duplicate alias zachary tang found. The alias will belong to the last author - zacharytang
+09:20:49 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:20:50 - Parsed header of CSV file, repoconfig_zeroValidRecords_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  File formats,  Ignore Glob List,  Find Previous Authors,  Ignore Commits List
+09:20:50 - ?[43;30m[WARNING]?[m Line 2 in CSV file, repoconfig_zeroValidRecords_test.csv, is malformed.
+Content: https://github.com/reposense/testrepo-Beta.git,override:java;adoc;md,override:docs**,no,override:abcde12345;67890fdecba,
+09:20:50 - ?[43;30m[WARNING]?[m Line 3 in CSV file, repoconfig_zeroValidRecords_test.csv, is malformed.
+Content: https://github.com/reposense/testrepo-Charlie.git,master,,
+09:20:50 - Parsed header of CSV file, repoconfig_duplicateHeadersCaseSensitive_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:20:50 - ?[43;30m[WARNING]?[m Line 2 in CSV file, repoconfig_duplicateHeadersCaseSensitive_test.csv, is malformed.
+Content: https://github.com/reposense/testrepo-Beta.git,master,py,java;adoc;md,docs**,,yes,abcde12345;67890fdecba,zacharytang,
+]]></system-err>
+</testsuite>

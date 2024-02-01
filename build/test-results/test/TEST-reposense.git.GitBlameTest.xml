@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.git.GitBlameTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:42" hostname="TOP-WASHING-POW" time="6.569">
+  <properties/>
+  <testcase name="blameRaw_nonExistentFile_throwsRunTimeException()" classname="reposense.git.GitBlameTest" time="2.225"/>
+  <testcase name="blameWithPreviousAuthorsRaw_nonExistentFile_throwsRunTimeException()" classname="reposense.git.GitBlameTest" time="1.938"/>
+  <testcase name="blameRaw_validFile_success()" classname="reposense.git.GitBlameTest" time="0.864"/>
+  <testcase name="blameWithPreviousAuthorsRaw_validFile_success()" classname="reposense.git.GitBlameTest" time="1.533"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

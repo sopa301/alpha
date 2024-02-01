@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.git.GitShortlogTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:43" hostname="TOP-WASHING-POW" time="4.924">
+  <properties/>
+  <testcase name="getAuthors_validRepoDateRange_success()" classname="reposense.git.GitShortlogTest" time="2.216"/>
+  <testcase name="getAuthors_validRepoNoDateRange_success()" classname="reposense.git.GitShortlogTest" time="1.862"/>
+  <testcase name="getAuthors_validRepoDateOutOfRange_success()" classname="reposense.git.GitShortlogTest" time="0.841"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:43 - Extracting relevant file info from https://github.com/reposense/testrepo-Alpha.git (1636-FileAnalyzerTest-analyzeFile_filesWithEmptyEmailCommit_success)...
+09:20:47 - Parsed header of CSV file, repoconfig_unrecognizedValuesForYesKeywordHeaders_test.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Skip Ignored File Analysis,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore File Size Limit,  Ignore Commits List
+]]></system-err>
+</testsuite>

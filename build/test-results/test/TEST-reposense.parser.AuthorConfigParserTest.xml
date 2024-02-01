@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.parser.AuthorConfigParserTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:48" hostname="TOP-WASHING-POW" time="0.733">
+  <properties/>
+  <testcase name="parse_multipleColumnsWithCommasAndDoubleQuotes_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.01"/>
+  <testcase name="authorConfig_missingMandatoryHeader_throwsInvalidCsvException()" classname="reposense.parser.AuthorConfigParserTest" time="0.005"/>
+  <testcase name="authorConfig_emptyConfig_throwsInvalidCsvException()" classname="reposense.parser.AuthorConfigParserTest" time="0.008"/>
+  <testcase name="authorConfig_multipleReposInRowMultipleBranchPerRepo_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.558"/>
+  <testcase name="authorConfig_noSpecialCharacter_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.008"/>
+  <testcase name="authorConfig_emptyLocation_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.007"/>
+  <testcase name="authorConfig_unknownHeaders_throwsInvalidHeaderException()" classname="reposense.parser.AuthorConfigParserTest" time="0.005"/>
+  <testcase name="authorConfig_multipleEmails_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.004"/>
+  <testcase name="authorConfig_differentColumnOrder_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.005"/>
+  <testcase name="authorConfig_specialCharacter_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.007"/>
+  <testcase name="authorConfig_missingOptionalHeader_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.007"/>
+  <testcase name="authorConfig_newGitHostIdHeader_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.018"/>
+  <testcase name="authorConfig_multipleReposInRowSingleBranchPerRepo_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.065"/>
+  <testcase name="authorConfig_multipleReposInRow_success()" classname="reposense.parser.AuthorConfigParserTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:48 - Parsed header of CSV file, authorconfig_commasAndDoubleQuotes_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: path\to\repo\.git
+09:20:48 - Parsed header of CSV file, authorconfig_multipleReposInRowMultipleBranchPerRepo_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+09:20:48 - Parsed header of CSV file, authorconfig_differentColumnOrder_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Ignore Glob List,  Author's Display Name,  Author's Git Author Name
+09:20:48 - Parsed header of CSV file, authorconfig_specialCharacter_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+09:20:48 - Parsed header of CSV file, authorconfig_gitHostIdHeader_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Branch,  Author's Git Host ID,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+09:20:48 - Parsed header of CSV file, authorconfig_gitHubIdHeader_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+09:20:48 - Parsed header of CSV file, authorconfig_multipleReposInRowSingleBranchPerRepo_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: /Users/sikai/RepoSense
+09:20:48 - Parsed header of CSV file, authorconfig_multipleReposInRow_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+]]></system-err>
+</testsuite>

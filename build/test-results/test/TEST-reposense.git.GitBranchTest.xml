@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.git.GitBranchTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:43" hostname="TOP-WASHING-POW" time="5.893">
+  <properties/>
+  <testcase name="getCurrentBranch_masterBranch_success()" classname="reposense.git.GitBranchTest" time="1.764"/>
+  <testcase name="getCurrentBranch_uncommonDefaultBranch_success()" classname="reposense.git.GitBranchTest" time="4.127"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:45 - Cloning from https://github.com/reposense/testrepo-UncommonDefaultBranch.git...
+09:20:45 - Cloning in parallel from repos\repoclone test\dummy-repo...
+]]></system-err>
+</testsuite>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.parser.ArgsParserTest" tests="52" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:47" hostname="TOP-WASHING-POW" time="1.346">
+  <properties/>
+  <testcase name="period_inWeeksWithUntilDate_success()" classname="reposense.parser.ArgsParserTest" time="0.006"/>
+  <testcase name="untilDate_correctFormat_success()" classname="reposense.parser.ArgsParserTest" time="0.006"/>
+  <testcase name="sinceDate_laterThanUntilDate_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.006"/>
+  <testcase name="relativeConfigFolder_withoutRequiredConfigFiles_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.011"/>
+  <testcase name="parse_allCorrectInputs_success()" classname="reposense.parser.ArgsParserTest" time="0.009"/>
+  <testcase name="period_inDaysWithSinceDate_success()" classname="reposense.parser.ArgsParserTest" time="0.008"/>
+  <testcase name="emptyArgs_defaultConfigFolderPath()" classname="reposense.parser.ArgsParserTest" time="0.004"/>
+  <testcase name="sinceDate_unsupportedFormats_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.007"/>
+  <testcase name="outputPath_nonExistentDirectory_success()" classname="reposense.parser.ArgsParserTest" time="0.007"/>
+  <testcase name="numAnalysisThreads_isNumeric_success()" classname="reposense.parser.ArgsParserTest" time="0.005"/>
+  <testcase name="parse_mutuallyExclusiveArgumentsConfigAndReposTogether_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.005"/>
+  <testcase name="untilDate_withExtraTime_success()" classname="reposense.parser.ArgsParserTest" time="0.005"/>
+  <testcase name="parse_configFolderAndViewWithArgs_returnsConfigCliArguments()" classname="reposense.parser.ArgsParserTest" time="0.005"/>
+  <testcase name="parse_configCsvFileAsConfigFolder_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.005"/>
+  <testcase name="parse_timezoneWithoutArgument_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.005"/>
+  <testcase name="parse_configFolderOnly_success()" classname="reposense.parser.ArgsParserTest" time="0.008"/>
+  <testcase name="sinceDate_beforeUntilDateAndLaterThanCurrentDate_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.004"/>
+  <testcase name="parse_configOrLocationsSimilar_success()" classname="reposense.parser.ArgsParserTest" time="0.982"/>
+  <testcase name="parse_repoLocationsAndView_returnsLocationCliArguments()" classname="reposense.parser.ArgsParserTest" time="0.002"/>
+  <testcase name="parse_notExistsConfigFolder_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.004"/>
+  <testcase name="parse_help_throwsHelpScreenException()" classname="reposense.parser.ArgsParserTest" time="0.023"/>
+  <testcase name="parse_incorrectTimezone_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.009"/>
+  <testcase name="period_withBothSinceDateAndUntilDate_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.007"/>
+  <testcase name="sinceDate_withExtraDate_success()" classname="reposense.parser.ArgsParserTest" time="0.004"/>
+  <testcase name="formats_inAlphanumeric_success()" classname="reposense.parser.ArgsParserTest" time="0.004"/>
+  <testcase name="parse_repoLocationsAndViewWithArgs_returnsLocationsCliArguments()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <testcase name="parse_withExtraWhitespaces_success()" classname="reposense.parser.ArgsParserTest" time="0.005"/>
+  <testcase name="parse_repoAliases_sameResult()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <testcase name="parse_withTimezone_success()" classname="reposense.parser.ArgsParserTest" time="0.021"/>
+  <testcase name="numCloningThreads_default_success()" classname="reposense.parser.ArgsParserTest" time="0.004"/>
+  <testcase name="parse_missingConfigValue_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <testcase name="parse_viewOnly_success()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <testcase name="absoluteConfigFolder_withoutRequiredConfigFiles_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <testcase name="sinceDate_laterThanCurrentDate_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.004"/>
+  <testcase name="parse_allCorrectInputsAlias_success()" classname="reposense.parser.ArgsParserTest" time="0.005"/>
+  <testcase name="period_notNumeric_throwsParseExcpetion()" classname="reposense.parser.ArgsParserTest" time="0.008"/>
+  <testcase name="parse_extraArgumentForIgnore_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.008"/>
+  <testcase name="untilDate_unsupportedFormats_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.006"/>
+  <testcase name="parse_configFolderAndOutputDirectory_success()" classname="reposense.parser.ArgsParserTest" time="0.008"/>
+  <testcase name="parse_validGitRepoLocations_repoConfigurationListCorrectSize()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <testcase name="numAnalysisThreads_default_success()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <testcase name="sinceDate_correctFormat_success()" classname="reposense.parser.ArgsParserTest" time="0.01"/>
+  <testcase name="parse_d1CorrectTimeZone_success()" classname="reposense.parser.ArgsParserTest" time="0.004"/>
+  <testcase name="formats_notInAlphanumeric_throwsParseException()" classname="reposense.parser.ArgsParserTest" time="0.004"/>
+  <testcase name="parse_withoutIgnore_success()" classname="reposense.parser.ArgsParserTest" time="0.001"/>
+  <testcase name="parse_repoLocationsOnly_success()" classname="reposense.parser.ArgsParserTest" time="0.002"/>
+  <testcase name="numCloningThreads_isNumeric_success()" classname="reposense.parser.ArgsParserTest" time="0.005"/>
+  <testcase name="parse_shallowCloning_success()" classname="reposense.parser.ArgsParserTest" time="0.007"/>
+  <testcase name="parse_viewOnlyWithoutArgs_returnsConfigCliArguments()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <testcase name="parse_withIgnore_success()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <testcase name="parse_configFolderAndViewWithouthArgs_returnsConfigCliArguments()" classname="reposense.parser.ArgsParserTest" time="0.018"/>
+  <testcase name="period_isZero_throwsParseExcpetion()" classname="reposense.parser.ArgsParserTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:47 - Extracting relevant file info from https://github.com/reposense/testrepo-Alpha.git (master)...
+09:20:47 - Config path not provided, using the config folder as default.
+09:20:47 - Config path not provided, using the config folder as default.
+09:20:47 - Ignoring argument 'C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\build\resources\test\output' for --view.
+09:20:47 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:20:47 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: /path/to/repo
+09:20:47 - ?[43;30m[WARNING]?[m Ignoring unknown value no in yes column.
+09:20:48 - ?[43;30m[WARNING]?[m Duplicate alias fakeauthor found. The alias will belong to the last author - fakeAuthor
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: /path/with/redundant/directories/../.././../to/repo
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: /Users/sikai/RepoSense
+09:20:48 - Config path not provided, using the config folder as default.
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: /Users/sikai/RepoSense
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: path/with/redundant/directories/../../../../../to/repo
+09:20:48 - ?[43;30m[WARNING]?[m Unable to run git remote command in directory: /Users/sikai/RepoSense
+09:20:48 - ?[43;30m[WARNING]?[m Duplicate alias zachary tang found. The alias will belong to the last author - zacharytang
+09:20:48 - Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
+09:20:48 - Parsed header of CSV file, authorconfig_emptyLocation_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+09:20:48 - Config path not provided, using the config folder as default.
+09:20:48 - Parsed header of CSV file, authorconfig_multipleEmails_test.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
+]]></system-err>
+</testsuite>

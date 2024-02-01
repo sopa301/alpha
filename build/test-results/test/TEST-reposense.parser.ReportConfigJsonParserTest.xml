@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.parser.ReportConfigJsonParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:47" hostname="TOP-WASHING-POW" time="0.011">
+  <properties/>
+  <testcase name="reportConfig_parseInvalidJsonFile_getDefaultTitle()" classname="reposense.parser.ReportConfigJsonParserTest" time="0.002"/>
+  <testcase name="reportConfig_parseValidJsonFile_getCustomTitle()" classname="reposense.parser.ReportConfigJsonParserTest" time="0.005"/>
+  <testcase name="reportConfig_parseEmptyJsonFile_getDefaultTitle()" classname="reposense.parser.ReportConfigJsonParserTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[09:20:47 - Skipped cloning from https://github.com/reposense/testrepo-Alpha.git as it was cloned before.
+]]></system-err>
+</testsuite>

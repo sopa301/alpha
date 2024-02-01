@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\authorship\AnnotatorAnalyzerTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\authorship\FileAnalyzerTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\authorship\FileInfoExtractorTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\authorship\FileResultAggregatorTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\commits\CommitInfoAnalyzerTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\commits\CommitInfoExtractorTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitBlameTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitBranchTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitCatFileTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitCheckoutTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitCloneTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitConfigTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitDiffTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitLogTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitRemoteTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitRevListTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitRevParseTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitShortlogTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitShowTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\git\GitUtilTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\model\AuthorTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\model\CommitHashTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\model\FileTypeManagerTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\model\FileTypeTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\model\RepoConfigurationTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\model\RepoLocationTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\model\RunConfigurationDeciderTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\model\StandaloneConfigTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\model\SupportedDomainUrlMapTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\parser\ArgsParserTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\parser\AuthorConfigLocationParserTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\parser\AuthorConfigParserTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\parser\GroupConfigParserTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\parser\RepoConfigParserTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\parser\ReportConfigJsonParserTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\parser\StandaloneConfigJsonParserTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\report\ErrorSummaryTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\report\RepoClonerTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\template\GitTestTemplate.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\util\AssertUtil.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\util\FileUtilTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\util\InputBuilder.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\util\StringsUtilTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\util\TestRepoCloner.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\util\TestUtil.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\util\TestUtilTest.java">
+</file>
+<file name="C:\Users\ryanp\Documents\nuslocal\cs3281\RepoSense\src\test\java\reposense\util\TimeUtilTest.java">
+</file>
+</checkstyle>

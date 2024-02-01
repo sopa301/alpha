@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reposense.git.GitCatFileTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-01-18T13:20:42" hostname="TOP-WASHING-POW" time="7.276">
+  <properties/>
+  <testcase name="getParentCommits_rootCommit_success()" classname="reposense.git.GitCatFileTest" time="2.249"/>
+  <testcase name="getParentCommits_normalCommit_success()" classname="reposense.git.GitCatFileTest" time="1.743"/>
+  <testcase name="getParentsOfCommits_singleCommit_success()" classname="reposense.git.GitCatFileTest" time="1.192"/>
+  <testcase name="getParentsOfCommits_multipleCommits_success()" classname="reposense.git.GitCatFileTest" time="1.356"/>
+  <testcase name="getParentCommits_nonExistentCommit_throwsEmptyCommitException()" classname="reposense.git.GitCatFileTest" time="0.725"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
